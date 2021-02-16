@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dongyimai-pojo" />
+        <module name="dongyimai-sellergoods-interface" />
+        <module name="dongyimai-common" />
+        <module name="dongyimai-manager-web" />
+        <module name="dongyimai-makecode" />
+        <module name="dongyimai-dao" />
+        <module name="dongyimai-shop-web" />
+        <module name="dongyimai-sellergoods-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dongyimai-common" target="1.8" />
+      <module name="dongyimai-dao" target="1.8" />
+      <module name="dongyimai-makecode" target="1.8" />
+      <module name="dongyimai-manager-web" target="1.8" />
+      <module name="dongyimai-parent" target="1.8" />
+      <module name="dongyimai-pojo" target="1.8" />
+      <module name="dongyimai-sellergoods-interface" target="1.8" />
+      <module name="dongyimai-sellergoods-service" target="1.8" />
+      <module name="dongyimai-shop-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="dongyimai-makecode:war">
+    <output-path>$PROJECT_DIR$/dongyimai-makecode/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>dongyimai-makecode</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="dongyimai-makecode.war">
+      <element id="artifact" artifact-name="dongyimai-makecode:war exploded" />
+    </root>
+  </artifact>
+</component>
